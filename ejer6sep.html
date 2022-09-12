@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Combo&family=Rubik+Dirt&family=Yanone+Kaffeesatz:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ejer6sep.css">
+</head>
+<body>
+    <center>
+        <div class="principal">
+            <div>
+                <h1>FASHION CONVERSOR</h1>
+                <p>Bienvenido al conversor mas fashion del mundo</p>
+            </div>
+
+            <div>
+                <p>Usuario:</p>
+                <input type="text" placeholder="Usuario" id="campoUsuario">
+            </div>    
+            <div>
+                <p>Contraseña:</p>
+                <input type="text" placeholder="Contraseña" id="campoContraseña">
+            </div>
+
+            <div>
+                <input type="button" value="Submit" id="boton" onclick="validar()">
+            </div>
+        </div>
+    </center>
+
+    <script>
+        function validar(){
+
+            var usuario=document.getElementById("campoUsuario").value;
+            var contraseña=document.getElementById("campoContraseña").value;
+            var usuarioValido="turki";
+            var contraseñaValida="elmejor";
+
+            if(usuario==usuarioValido && contraseña==contraseñaValida){
+                location.replace("ejerMiConversor.html");
+            }
+        }
+    </script>
+</body>
+</html>
