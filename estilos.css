@@ -1,28 +1,46 @@
 h1{
     font-family: 'Combo', cursive;
+    font-size: 30px;
 }
 
 body{
     background-image: url(fondo.jpg);
-    background-size: 96%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 5px;
 }
 
 nav{
     background-color: rgb(193, 0, 0);
     text-align: center;
+    padding: 10px;
+    font-family: cursive;
 }
 
 a{
     text-decoration: none;
     color: white;
-    padding: 10px;
     margin: 10px;
+}
+
+section{
+    text-align: center;
+    margin-left: 30%;
+}
+
+#central{
+    margin-top: 50px;
+    border: 2px solid black;
+    background-color: rgb(255, 205, 205);
+    border-radius: 25px;
+    width: 60%;
 }
 
 .principal{
@@ -48,5 +66,21 @@ p{
     background-color: white;
     margin: 20px 20px;
     border-radius: 50px;
+}
+
+#minialien{
+
+    transition:5s;
+    width: 40px;
+}
+
+@media  (max-width: 500px){
+
+    body{background-color: red;
+    
+    }
+    #minialien{
+        opacity: 0;
+    }   
 }
 
