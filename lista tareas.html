@@ -15,30 +15,40 @@
     </head>
 
     <body>
+        <header>
+            <h1 onclick="">KUTULUN'S PAGE</h1>
+            <img>
+        </header>
+    
+        <nav>
+            <img id="minialien" src="v5.gif" onclick="menu()">
+            <a href="validacion.html">Validar usuario</a>
+            <a href="conversor.html">Conversor a pulgadas</a>
+            <a href="lista tareas.html">Lista tareas</a>
+        </nav> 
+
         <center>
             <div class="principal">
-                <h1>Convierte lo que quieras</h1>
+                <h2>Lista de tareas</h2>
 
-                <div>
-                    <input type="number" id="num"> 
-                    <input type="button" value="Enviar" onclick="convertir()">               
-                </div>
+                    <div id="preguntor">
+                        <label>¿Qué te falta por hacer?</label>
+                        <input type="text">
+                        <input type="submit">
+                    </div>
 
-                <div id="casillaresultado">
-                    <p>Resultado:</p>
-                </div>
+                    <div class="tareario" id="tarea1" onclick="introducirTarea()">
+                        
+                    </div>
 
-                <a href="index.html">principal</a>
+                <a href="index.html">Principal</a>
             </div>
         </center>
 
         <script>
-            function convertir(){
-                var numerointroducido=document.getElementById("num").value;
-                var resultado = numerointroducido * 39.3701;
-
-                document.getElementById("casillaresultado").innerHTML = resultado;
-            }
+           function introducirTarea(){
+            
+           }
         </script>
     </body>
 </html>

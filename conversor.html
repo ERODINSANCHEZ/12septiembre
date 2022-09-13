@@ -15,9 +15,21 @@
     </head>
 
     <body>
+        <header>
+            <h1>KUTULUN'S PAGE</h1>
+            <img>
+        </header>
+    
+        <nav>
+            <img id="minialien" src="v5.gif" onclick="menu()">
+            <a href="validacion.html">Validar usuario</a>
+            <a href="conversor.html">Conversor a pulgadas</a>
+            <a href="lista tareas.html">Lista tareas</a>
+        </nav> 
+
         <center>
             <div class="principal">
-                <h1>Convierte lo que quieras</h1>
+                <h1>Convierte de metros a pulgadas</h1>
 
                 <div>
                     <input type="number" id="num"> 
@@ -28,7 +40,7 @@
                     <p>Resultado:</p>
                 </div>
 
-                <a href="index.html">principal</a>
+                <a href="index.html">Principal</a>
             </div>
         </center>
 
@@ -37,7 +49,7 @@
                 var numerointroducido=document.getElementById("num").value;
                 var resultado = numerointroducido * 39.3701;
 
-                document.getElementById("casillaresultado").innerHTML = resultado;
+                document.getElementById("casillaresultado").innerHTML = resultado + " pulgadas";
             }
         </script>
     </body>
