@@ -1,6 +1,6 @@
 h1{
     font-family: 'Combo', cursive;
-    font-size: 30px;
+    padding-top: 30px;
 }
 
 body{
@@ -14,6 +14,7 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    height: 50px;
 }
 
 nav{
@@ -70,7 +71,7 @@ p{
 #minialien{
 
     transition:5s;
-    width: 40px;
+    width: 30px;
 }
 
 @media  (max-width: 500px){
