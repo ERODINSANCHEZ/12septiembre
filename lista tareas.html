@@ -31,14 +31,16 @@
             <div class="principal">
                 <h2>Lista de tareas</h2>
 
-                    <div id="preguntor">
+                    <div>
                         <label>¿Qué te falta por hacer?</label>
-                        <input type="text">
-                        <input type="submit">
+                        <input type="text" id="introductor">
+                        <input type="submit" onclick="introducirTarea()">
                     </div>
 
-                    <div class="tareario" id="tarea1" onclick="introducirTarea()">
-                        
+                    <div>
+                        <ul>
+                            <li id="tarea"></li>
+                        </ul>
                     </div>
 
                 <a href="index.html">Principal</a>
@@ -46,9 +48,12 @@
         </center>
 
         <script>
-           function introducirTarea(){
-            
-           }
+            function introducirTarea(){
+                var guardaTareas;
+                guardarTareas=document.getElementById("introductor").value;
+
+                document.getElementById("tarea").innerHTML=guardarTarea;
+            }
         </script>
     </body>
 </html>
