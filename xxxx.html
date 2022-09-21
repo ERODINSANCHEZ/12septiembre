@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+
+    <head>
+        <title>Ejercicio 6 septiembre</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Combo&family=Rubik+Dirt&family=Yanone+Kaffeesatz:wght@200;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>KUTULUN'S PAGE</h1>
+            <img>
+        </header>
+    
+        <nav>
+            <img id="minialien" src="v5.gif" onclick="menu()">
+            <a href="validacion.html">Validar usuario</a>
+            <a href="conversor.html">Conversor a pulgadas</a>
+            <a href="lista tareas.html">Lista tareas</a>
+        </nav> 
+
+        <center>
+            <div class="principal">
+                <h1>Convierte de metros a pulgadas</h1>
+
+                <div>
+                    <input type="number" id="num"> 
+                    <input type="button" value="Enviar" onclick="convertir()">               
+                </div>
+
+                <div id="casillaresultado">
+                    <p>Resultado:</p>
+                </div>
+
+                <a href="index.html">Principal</a>
+            </div>
+        </center>
+
+        <script>
+            function convertir(){
+                var numerointroducido=document.getElementById("num").value;
+                var resultado = numerointroducido * 39.3701;
+
+                document.getElementById("casillaresultado").innerHTML = resultado + " pulgadas";
+            }
+        </script>
+    </body>
+</html>
