@@ -1,6 +1,14 @@
 h1{
     font-family: 'Combo', cursive;
-    padding-top: 30px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 75px;
 }
 
 body{
@@ -10,24 +18,17 @@ body{
     background-size: cover;
 }
 
-header{
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 50px;
-}
-
 nav{
     background-color: rgb(193, 0, 0);
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-family: cursive;
 }
 
 a{
     text-decoration: none;
     color: white;
-    margin: 10px;
+    margin: 20px 10px;
 }
 
 section{
@@ -43,6 +44,19 @@ section{
     width: 60%;
 }
 
+#volverPrincipal{
+    color: black;
+    margin-top: 50px;
+}
+
+li{
+    list-style: none;
+    background-color: white;
+    border-radius: 25px;
+    width: 75%;
+    text-align: left;
+}
+
 .principal{
     background-color: rgb(193, 0, 0);
     text-align: center;
@@ -50,7 +64,7 @@ section{
     width: 50%;
     border-radius: 50px;
     border-color: black;
-    margin: 10px;
+    margin: 30px;
 }
 
 p{
