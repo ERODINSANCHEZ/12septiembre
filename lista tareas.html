@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+
+    <head>
+        <title>Ejercicio 6 septiembre</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Combo&family=Rubik+Dirt&family=Yanone+Kaffeesatz:wght@200;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 onclick="">KUTULUN'S PAGE</h1>
+            <img>
+        </header>
+    
+        <nav>
+            <img id="minialien" src="v5.gif" onclick="menu()">
+            <a href="validacion.html">Validar usuario</a>
+            <a href="conversor.html">Conversor a pulgadas</a>
+            <a href="lista tareas.html">Lista tareas</a>
+        </nav> 
+
+        <center>
+            <div id="principal">
+                <div id="secundario">
+                    <div id="terciario">
+                        <h1>Lista de tareas:</h1>
+    
+    
+                        <input name="Tarea" type="text" id="casillaTarea" placeholder="Introduce una tarea">
+                        <input type="submit" onclick="introducirTarea()">
+                    </div>
+                </div>
+    
+                <div id="secundario">
+                    <ul>
+                        <li id="casillaTareaIntroducida"></li>
+                    </ul>
+                </div>
+            </div>
+        </center>
+
+        <script>
+            function introducirTarea(){
+                var tarea=document.getElementById("casillaTarea").value;
+
+                document.getElementById("casillaTareaIntroducida").innerHTML=tarea;
+            }
+        </script>
+    </body>
+</html>
