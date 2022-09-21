@@ -28,31 +28,30 @@
         </nav> 
 
         <center>
-            <div class="principal">
-                <h2>Lista de tareas</h2>
-
-                    <div>
-                        <label>¿Qué te falta por hacer?</label>
-                        <input type="text" id="introductor">
+            <div id="principal">
+                <div id="secundario">
+                    <div id="terciario">
+                        <h1>Lista de tareas:</h1>
+    
+    
+                        <input name="Tarea" type="text" id="casillaTarea" placeholder="Introduce una tarea">
                         <input type="submit" onclick="introducirTarea()">
                     </div>
-
-                    <div>
-                        <ul>
-                            <li id="tarea"></li>
-                        </ul>
-                    </div>
-
-                <a href="index.html">Principal</a>
+                </div>
+    
+                <div id="secundario">
+                    <ul>
+                        <li id="casillaTareaIntroducida"></li>
+                    </ul>
+                </div>
             </div>
         </center>
 
         <script>
             function introducirTarea(){
-                var guardaTareas;
-                guardarTareas=document.getElementById("introductor").value;
+                var tarea=document.getElementById("casillaTarea").value;
 
-                document.getElementById("tarea").innerHTML=guardarTarea;
+                document.getElementById("casillaTareaIntroducida").innerHTML=tarea;
             }
         </script>
     </body>
