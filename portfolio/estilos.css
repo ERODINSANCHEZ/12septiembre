@@ -19,7 +19,7 @@ body{
 }
 
 nav{
-    background-color: rgb(193, 0, 0);
+    background-color: rgb(255, 50, 193);
     text-align: center;
     padding: 5px;
     font-family: cursive;
@@ -36,14 +36,6 @@ section{
     margin-left: 30%;
 }
 
-#central{
-    margin-top: 50px;
-    border: 2px solid black;
-    background-color: rgb(255, 205, 205);
-    border-radius: 25px;
-    width: 60%;
-}
-
 #volverPrincipal{
     color: black;
     margin-top: 50px;
@@ -58,12 +50,11 @@ li{
 }
 
 .principal{
-    background-color: rgb(193, 0, 0);
+    background-color: rgb(255, 194, 225);
     text-align: center;
-    padding: 10px;
     width: 50%;
     border-radius: 50px;
-    border-color: black;
+    border: 5px solid black;
     margin: 30px;
 }
 
@@ -74,6 +65,15 @@ p{
 
 #boton{
     margin: 20px 20px;
+}
+
+
+#central{
+    margin-top: 50px;
+    border: 2px solid black;
+    background-color: rgb(255, 205, 205);
+    border-radius: 25px;
+    width: 60%;
 }
 
 #casillaresultado{
