@@ -1,0 +1,15 @@
+package practicasAleatorias;
+
+import java.util.*;
+
+public class practicasAleatorias {
+
+	static Scanner teclado = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		int sueldo=teclado.nextInt;
+		int antiguedad = ;
+	}
+
+}

@@ -1,0 +1,36 @@
+package practicasAleatorias1;
+
+public class practicasAleatorias1 {
+
+	public static void main(String[] args) {
+		
+	/*	pg: 95
+		5. Mostrar los múltiplos de 8 hasta el valor 500. Debe aparecer en pantalla 8 - 16 - 24, etc.
+	*/
+		
+		int factorFijo=8;
+		int factorVariante=0;
+		
+		while(factorFijo*factorVariante<=500) {
+			System.out.print(factorFijo*factorVariante);
+			
+			if((factorFijo*factorVariante)!=496) {
+			System.out.print(" - ");	
+			}
+			
+			factorVariante++;
+		}
+		
+	/* RESPUESTA PARA TODOS LOS EJS DE MULTIPLOS:
+	 * 
+	 * int num=0;
+	 * 
+	 * while(num<500){
+	 * 	if (num % 8==0){
+	 * 		System.out.print(num + "-");
+	 * 	}
+	 * num=num+1;
+	 * }	
+	 */
+	}
+}

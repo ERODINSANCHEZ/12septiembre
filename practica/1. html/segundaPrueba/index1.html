@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hola mundo</p>
+    <script>
+        //promp: para almacenar datos en una variable
+        var nombre = prompt("introduce tu nombre");
+
+        //envia una ventana emergente
+        alert("Hola "+ nombre);
+
+        //envia a la consola
+        console.log("hola "+ nombre);
+
+        //envia al documento html
+        document.write("hola "+ nombre)
+
+        //condicionales
+        if(nombre=="pepe"){
+            alert("Hola "+nombre+ " estas autorizado");
+        }else{
+            alert("Adios, no estás autorizado");
+        }
+
+        //bucle for
+        for (var i=0; i<=100;i++){
+            console.log(i);
+        }
+
+        //bucle while
+        var x=100;
+        while(x>0){
+            console.log(x);
+            x--;
+        }
+
+        //arrays
+        var miPrimerArray = [13, 2, 12, 4, 55, 23, 1];
+        console.log(miPrimerArray);
+
+        //enviar informacion al html
+        document.getElementById("cuerpo").innerHTML="Para enviar datos al HTML";
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+button{
+    margin-left: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    color: fuchsia;
+}
+
+#contenido{
+    margin: 10px;
+    text-align: center;
+}

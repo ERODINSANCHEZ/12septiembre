@@ -1,0 +1,15 @@
+package practicasAleatorias1;
+
+public class practicasAleatorias1 {
+
+	public static void main(String[] args) {
+		
+		int factorFijo=8;
+		int factorVariante=0;
+		
+		while(factorFijo*factorVariante<=500) {
+			System.out.println(numero*multiplo);
+		}
+	}
+
+}

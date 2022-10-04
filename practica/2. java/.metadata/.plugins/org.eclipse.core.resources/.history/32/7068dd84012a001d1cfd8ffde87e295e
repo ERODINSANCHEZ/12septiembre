@@ -1,0 +1,17 @@
+package practicasAleatorias1;
+
+public class practicasAleatorias1 {
+
+	public static void main(String[] args) {
+		
+		int numero=8;
+		int multiplo;
+		
+		while(numero<=500) {
+			multiplo=0;
+			System.out.println(numero*multiplo);
+			multiplo++;
+		}
+	}
+
+}

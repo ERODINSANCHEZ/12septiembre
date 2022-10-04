@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Grace",
+                "last": "Davis"
+            },
+            "location": {
+                "street": {
+                    "number": 1571,
+                    "name": "Hamilton Ave"
+                },
+                "city": "Santa Ana",
+                "state": "Indiana",
+                "country": "United States",
+                "postcode": 47117,
+                "coordinates": {
+                    "latitude": "82.6974",
+                    "longitude": "49.7024"
+                },
+                "timezone": {
+                    "offset": "+3:30",
+                    "description": "Tehran"
+                }
+            },
+            "email": "grace.davis@example.com",
+            "login": {
+                "uuid": "531925c4-644b-45a4-96d4-56c4d764d628",
+                "username": "crazygoose481",
+                "password": "solitude",
+                "salt": "rsSvNtLA",
+                "md5": "e096b581b5fc72bfdf6fdb7ea707f033",
+                "sha1": "ff25cf63c8c2a08cbd06ff8fc8bf57969be29cc9",
+                "sha256": "23f74d68fca431c78200ebfdb681682513299057e3f0f53e1618f1839f6a112c"
+            },
+            "dob": {
+                "date": "1989-04-04T09:59:33.764Z",
+                "age": 33
+            },
+            "registered": {
+                "date": "2007-12-25T02:56:13.467Z",
+                "age": 14
+            },
+            "phone": "(532) 831-5337",
+            "cell": "(848) 949-4430",
+            "id": {
+                "name": "SSN",
+                "value": "865-36-9210"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/79.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/79.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/79.jpg"
+            },
+            "nat": "US"
+        }
+    ],
+    "info": {
+        "seed": "1d226eb82d7ec3d1",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

@@ -1,0 +1,66 @@
+[{
+  "_id":1,
+  "title": "Pulp Fiction",
+  "writer": "Quentin Tarantino",
+  "year": 1994,
+  "actors": [
+    "John Travolta",
+    "Uma Thurman",
+    "Samuel L. Jackson"
+  ]
+},{
+  "_id": {
+    "$oid": "632dca45ab7b5a6b118585d4"
+  },
+  "title": "Matrix",
+  "writer": "Hermanas xy",
+  "year": 1994,
+  "actors": [
+    "Neo",
+    "Morfeo",
+    "Trinity"
+  ]
+},{
+  "_id": {
+    "$oid": "632ddba9ab7b5a6b118585d5"
+  },
+  "title": "Pulp Fiction",
+  "Writer": "Quentin Tarantino",
+  "year": 1994,
+  "actors": [
+    "John Travolta",
+    "Uma Thurman"
+  ]
+},{
+  "_id": {
+    "$oid": "632ddbaeab7b5a6b118585d6"
+  },
+  "title": "Pulp Fiction",
+  "Writer": "Quentin Tarantino",
+  "year": 1994,
+  "actors": [
+    "John Travolta",
+    "Uma Thurman"
+  ]
+},{
+  "_id": {
+    "$oid": "632ddd1bab7b5a6b118585d7"
+  },
+  "title": "Inglorious Basterds",
+  "Writer": "Quentin Tarantino",
+  "year": 2009,
+  "actors": [
+    "Brad Pitt",
+    "Dian Kruger",
+    "Eli Roth"
+  ]
+},{
+  "_id": {
+    "$oid": "632ddd29ab7b5a6b118585d8"
+  },
+  "title": "The Hobbit: An Unexpected Journey",
+  "Writer": "J.R.R. Tolkein",
+  "year": 2012,
+  "Franchise": "The Hobbit",
+  "synopsis": "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from the dragon Smaug."
+}]

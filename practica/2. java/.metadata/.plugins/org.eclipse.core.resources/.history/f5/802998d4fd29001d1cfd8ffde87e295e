@@ -1,0 +1,11 @@
+package practicasAleatorias;
+
+public class practicasAleatorias {
+
+	public static void main(String[] args) {
+		
+		int sueldo = ;
+		int antiguedad = ;
+	}
+
+}

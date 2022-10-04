@@ -1,0 +1,28 @@
+package practicasAleatorias;
+
+import java.util.*;
+
+public class practicasAleatorias {
+
+	static Scanner teclado = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Introduce tu sueldo:");
+		int sueldo=teclado.nextInt();
+		int antiguedad = teclado.nextInt();
+		
+		int aumento;
+		
+		if(sueldo<500 && antiguedad>=10) {
+			aumento=(sueldo*20/100)+sueldo;
+			System.out.println("FELICIDADES! A partir de ahora tu sueldo es "+ aumento);
+		}else if(sueldo<500 && antiguedad<10) {
+			aumento=(sueldo*5/100)+sueldo;
+			System.out.println("FELICIDADES! Ahora tu sueldo es "+ aumento);
+		}else{
+			System.out.println("Tu sueldo se mantiene igual.");
+		}
+	}
+
+}

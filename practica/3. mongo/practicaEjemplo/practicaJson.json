@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "nombre": "Carlos",
+        "email": "carlos@gmail.com",
+        "estado": false
+    },
+
+    {
+        "id": 2,
+        "nombre": "Cristina",
+        "email": "cristina@gmail.com",
+        "estado": false
+    },
+
+    {
+        "id": 3,
+        "nombre": "Dario",
+        "email": "dario@gmail.com",
+        "estado": true
+    },
+
+    {
+        "id": 4,
+        "nombre": "Sara",
+        "email": "sara@gmail.com",
+        "estado": true
+    },
+
+    {
+
+         "id": 5,
+        "nombre": "Alba",
+         "email": "alba@gmail.com",
+         "estado": true
+
+    },
+
+    {
+
+        "id": 6,
+        "nombre": "Alvaro",
+        "email": "alvaro@gmail.com",
+        "estado": true
+    }
+]
